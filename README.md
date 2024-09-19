@@ -32,7 +32,7 @@ Vulkan is a cryptocurrency that aims to provide privacy, scalability and payment
 
 **Privacy:** Vulkan inherits the fundamental privacy of Vulkan, meaning every send and receive transaction remains private by default.
 
-**Scalability:** The base Vulkan blockchain is based on the existing codebase of Vulkan. Scalability is difficult to achieve on Proof-of-Work blockchains. In the future our team aims to revamp the codebase for the base Vulkan (VUK) token for increased scalability. On the other hand Vulkan Stable Dollar (USDV) will exist as a token on multiple blockchains such as BSC-20 and ERC-20 in order to achieve low fees and nearly instant payments. The most optimal chain for payments will be selected by the VulkanPay wallet or browser extension at the time of initiating a USDV payment.
+**Scalability:** The base Vulkan blockchain is based on the existing codebase of Monero. Scalability is difficult to achieve on Proof-of-Work blockchains. In the future our team aims to revamp the codebase for the base Vulkan (VUK) token for increased scalability. On the other hand Vulkan Stable Dollar (USDV) will exist as a token on multiple blockchains such as BSC-20 and ERC-20 in order to achieve low fees and nearly instant payments. The most optimal chain for payments will be selected by the VulkanPay wallet or browser extension at the time of initiating a USDV payment.
 
 **Payments:** Vulkan Stable Dollar (USDV) will exist as a token on multiple blockchains such as BSC-20 and ERC-20 in order to achieve low fees and nearly instant payments. The most optimal chain for payments will be selected by the VulkanPay wallet or browser extension at the time of initiating a USDV payment. By default USDV payments aren't untraceable in order to comply with regulations, but VulkanPay will have a feature to mix transactions to a certain degree for an added layer of privacy, ideal for true peer-to-peer (P2P) transactions.
 
@@ -143,7 +143,7 @@ pkg install git gmake cmake pkgconf boost-libs libzmq4 libsodium unbound
 Clone recursively to pull-in needed submodule(s):
 
 ```
-git clone --recursive https://github.com/Vulkan-project/Vulkan
+git clone --recursive https://github.com/Vulkanchain/vulkan
 ```
 
 If you already have a repo cloned, initialize and update:
